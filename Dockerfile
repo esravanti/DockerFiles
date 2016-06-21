@@ -11,7 +11,7 @@ ARG NODERED_VERSION=0.13.4
 RUN apk upgrade \
   && apk update --repository http://dl-3.alpinelinux.org/alpine/edge/community/ \
   && apk add --update --repository http://dl-3.alpinelinux.org/alpine/edge/community/ \
-  bash unzip python util-linux curl make g++ —no-cache
+  bash unzip python util-linux curl make g++
  
 # ensure npm is at v2 && install node-red
 RUN npm install -g npm@2.x && npm install -g --unsafe-perm node-red@${NODERED_VERSION}
