@@ -11,7 +11,8 @@
           "stop": "nodes/5-stop.js",
           "service": "nodes/10-service.js",
           "policy": "nodes/0-policy.js",
-          "smtp": "nodes/15-smtp.js"
+          "smtp": "nodes/15-smtp.js",
+          "lowercase": "nodes/lower-case.js" 
         }
     },
     "dependencies": {
